@@ -37,15 +37,15 @@ for i in range(1, int(input())):
       news = str(name[companynewsnumber]) + ", "+ str(random.choice(nothing))
   
   if jun_news == 1 or jun_news == 4:
-      if random.randrange(1, 2) == 1:
-        if random.randrange(1, 2) == 1:
+      if random.randrange(1, 3) == 1:
+        if random.randrange(1, 3) == 1:
           how_much[jun_number] -= random.randrange(int(how_much[jun_number]/1000), int(how_much[jun_number]/1))
   elif jun_news == 2 or jun_news == 3:
-      if random.randrange(1, 2) == 1:
-        if random.randrange(1, 2) == 1:
+      if random.randrange(1, 3) == 1:
+        if random.randrange(1, 3) == 1:
           how_much[jun_number] += random.randrange(int(how_much[jun_number]/1000), int(how_much[jun_number]/1))
   for p in range(5):
-    if random.randrange(1, 2) == 1:
+    if random.randrange(1, 3) == 1:
       randcom = p
       how_much[randcom] -= random.randrange(int(how_much[randcom]/1000), int(how_much[randcom]/100) + 1)
   
